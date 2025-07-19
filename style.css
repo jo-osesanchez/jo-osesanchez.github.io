@@ -1,0 +1,14 @@
+/* Using the 'Inter' font from Google Fonts (linked in HTML) */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom class for the button click animation */
+.btn-press {
+    transition: transform 0.1s ease-in-out;
+}
+
+/* This makes the button shrink slightly when it is actively being clicked */
+.btn-press:active {
+    transform: scale(0.95);
+}
